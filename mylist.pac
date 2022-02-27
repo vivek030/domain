@@ -16,7 +16,7 @@ function FindProxyForURL(url, host) {
     for(var i=0; i<proxylist.length; i++) {
         var value = proxylist[i];
         if ( localHostOrDomainIs(host, value) ) {
-            return "SOCKS5 "+proxyserver;
+            return "SOCKS "+proxyserver;
         }
     }
     return "DIRECT";
