@@ -1,4 +1,4 @@
-function FindProxyForURL(url, host) {
+function FindProxyForURLEx (url, host) {
     // Your proxy server name and port
     var proxyserver = '10.6.6.1:1080';
     //
@@ -11,7 +11,8 @@ function FindProxyForURL(url, host) {
         "mail.google.com",
         "www.pandora.com",
         "www.google.com",
-        "www.dnsleaktest.com"
+        "www.dnsleaktest.com",
+        "ipv6.google.com"
     );
     // Return our proxy name for matched domains/hosts
     for(var i=0; i<proxylist.length; i++) {
