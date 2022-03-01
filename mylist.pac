@@ -1,4 +1,4 @@
-function FindProxyForURLEx (url, host) {
+function FindProxyForURL (url, host) {
     // Your proxy server name and port
     var proxyserver = '10.6.6.1:1080';
     //
