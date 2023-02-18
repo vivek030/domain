@@ -1,14 +1,13 @@
 function FindProxyForURL (url, host) {
     // Your proxy server name and port
-    var proxyserver = '10.6.6.1:1080';
+    var proxyserver = '10.139.0.2:3128';
     //
     //  Here's a list of hosts to connect via the PROXY server
     //
     var proxylist = new Array(
-        "nixcraft.com",
-        "reddit.com",
-        "www.cyberciti.biz",
         "mail.google.com",
+        "accounts.google.com",
+        "www.cyberciti.biz",
         "www.pandora.com",
         "www.google.com",
         "www.dnsleaktest.com",
