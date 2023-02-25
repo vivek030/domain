@@ -18,7 +18,11 @@ function FindProxyForURL (url, host) {
         var value = proxylist[i];
         if ( localHostOrDomainIs(host, value) ) {
             //return "PROXY "+proxyserver;
-            return "PROXY 10.139.0.2:3128; DIRECT";
+            
+           { return "10.139.0.2:3128; " +
+              "DIRECT";
+              }
+            
         }
     }
     return "DIRECT";
